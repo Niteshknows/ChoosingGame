@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:orientation="vertical"
+        android:scrollbars="vertical">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/_30sdp"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose one out of"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="@dimen/_24sdp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rectwhite"
+            android:id="@+id/rg1">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:textAllCaps="true"
+                android:layout_height="wrap_content"
+                android:id="@+id/rb1_1"
+                android:text="Wisdom"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:textAllCaps="true"
+                android:layout_height="wrap_content"
+                android:id="@+id/rb1_2"
+                android:text="Money"/>
+        </RadioGroup>
+
+        <RadioGroup
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rectwhite"
+            android:id="@+id/rg2">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="true"
+                android:id="@+id/rb2_1"
+                android:text="Wisdom"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="true"
+                android:id="@+id/rb2_2"
+                android:text="Power"/>
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rectwhite"
+            android:id="@+id/rg3">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:textAllCaps="true"
+                android:layout_height="wrap_content"
+                android:id="@+id/rb3_1"
+                android:text="Wisdom"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:textAllCaps="true"
+                android:layout_height="wrap_content"
+                android:id="@+id/rb3_2"
+                android:text="Love"/>
+        </RadioGroup>
+
+        <RadioGroup
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rectwhite"
+            android:id="@+id/rg4">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="true"
+                android:id="@+id/rb4_1"
+                android:text="Wisdom"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="true"
+                android:id="@+id/rb4_2"
+                android:text="Health"/>
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rectwhite"
+            android:id="@+id/rg5">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:textAllCaps="true"
+                android:layout_height="wrap_content"
+                android:id="@+id/rb5_1"
+                android:text="Money"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:textAllCaps="true"
+                android:layout_height="wrap_content"
+                android:id="@+id/rb5_2"
+                android:text="Power"/>
+        </RadioGroup>
+
+        <RadioGroup
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rectwhite"
+            android:id="@+id/rg6">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="true"
+                android:id="@+id/rb6_1"
+                android:text="Money"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="true"
+                android:id="@+id/rb6_2"
+                android:text="Love"/>
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rectwhite"
+            android:id="@+id/rg7">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:textAllCaps="true"
+                android:layout_height="wrap_content"
+                android:id="@+id/rb7_1"
+                android:text="Money"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:textAllCaps="true"
+                android:layout_height="wrap_content"
+                android:id="@+id/rb7_2"
+                android:text="Health"/>
+        </RadioGroup>
+
+        <RadioGroup
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rectwhite"
+            android:id="@+id/rg8">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="true"
+                android:id="@+id/rb8_1"
+                android:text="Power"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="true"
+                android:id="@+id/rb8_2"
+                android:text="Love"/>
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rectwhite"
+            android:id="@+id/rg9">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:textAllCaps="true"
+                android:layout_height="wrap_content"
+                android:id="@+id/rb9_1"
+                android:text="Power"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:textAllCaps="true"
+                android:layout_height="wrap_content"
+                android:id="@+id/rb9_2"
+                android:text="Health"/>
+        </RadioGroup>
+
+        <RadioGroup
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rectwhite"
+            android:id="@+id/rg10">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="true"
+                android:id="@+id/rb10_1"
+                android:text="Love"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="true"
+                android:id="@+id/rb10_2"
+                android:text="Health"/>
+        </RadioGroup>
+    </LinearLayout>
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/submitBtn"
+    android:layout_gravity="center"
+    android:text="SUBMIT"
+    android:layout_marginTop="@dimen/_15sdp"/>
+
+
+</LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
